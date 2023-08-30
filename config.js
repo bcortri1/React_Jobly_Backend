@@ -49,5 +49,5 @@ module.exports = {
     PORT,
     BCRYPT_WORK_FACTOR,
     getDatabaseUri,
-    getDatabaseConfig
+    //getDatabaseConfig
 };

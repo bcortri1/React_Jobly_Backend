@@ -1,7 +1,9 @@
 "use strict";
 /** Database setup for jobly. */
 const { Client } = require("pg");
-const { getDatabaseUri, getDatabaseConfig } = require("./config");
+const { getDatabaseUri,
+    // getDatabaseConfig 
+    } = require("./config");
 
 let db;
 
